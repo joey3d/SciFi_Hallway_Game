@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: e2eae706e57eee449a70bcfa2dec2a3f
+timeCreated: 1507875892
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Ceiling_02
+    100002: //RootNode
+    100004: Exit_01
+    100006: Exit_Door_01
+    100008: Exit_Door_02
+    100010: Floor_04
+    100012: Lock_05
+    100014: Lock_06
+    100016: Pipe_01
+    100018: Pipe_02
+    100020: Pipe_03
+    100022: Pipe_Small_01
+    100024: Projector
+    100026: Side_Wall_01
+    100028: Side_Wall_02
+    100030: Wall_04
+    100032: Wall_05
+    100034: Wall_07
+    100036: Wall_09
+    100038: White_Wall_Vent
+    100040: Wire_Handle
+    100042: pCube250
+    100044: Floor_06
+    100046: Floor_Piece
+    100048: Structure_02
+    100050: Wall_012
+    100052: Floor_Piece1
+    100054: Floor_Piece2
+    100056: Wall_013
+    100058: Wall_014
+    100060: Wall_015
+    400000: Ceiling_02
+    400002: //RootNode
+    400004: Exit_01
+    400006: Exit_Door_01
+    400008: Exit_Door_02
+    400010: Floor_04
+    400012: Lock_05
+    400014: Lock_06
+    400016: Pipe_01
+    400018: Pipe_02
+    400020: Pipe_03
+    400022: Pipe_Small_01
+    400024: Projector
+    400026: Side_Wall_01
+    400028: Side_Wall_02
+    400030: Wall_04
+    400032: Wall_05
+    400034: Wall_07
+    400036: Wall_09
+    400038: White_Wall_Vent
+    400040: Wire_Handle
+    400042: pCube250
+    400044: Floor_06
+    400046: Floor_Piece
+    400048: Structure_02
+    400050: Wall_012
+    400052: Floor_Piece1
+    400054: Floor_Piece2
+    400056: Wall_013
+    400058: Wall_014
+    400060: Wall_015
+    2300000: Ceiling_02
+    2300002: Exit_01
+    2300004: Exit_Door_01
+    2300006: Exit_Door_02
+    2300008: Floor_04
+    2300010: Lock_05
+    2300012: Lock_06
+    2300014: Pipe_01
+    2300016: Pipe_02
+    2300018: Pipe_03
+    2300020: Pipe_Small_01
+    2300022: Projector
+    2300024: Side_Wall_01
+    2300026: Side_Wall_02
+    2300028: Wall_04
+    2300030: Wall_05
+    2300032: Wall_07
+    2300034: Wall_09
+    2300036: White_Wall_Vent
+    2300038: Wire_Handle
+    2300040: pCube250
+    2300042: Floor_06
+    2300044: Floor_Piece
+    2300046: Structure_02
+    2300048: Wall_012
+    2300050: Floor_Piece1
+    2300052: Floor_Piece2
+    2300054: Wall_013
+    2300056: Wall_014
+    2300058: Wall_015
+    3300000: Ceiling_02
+    3300002: Exit_01
+    3300004: Exit_Door_01
+    3300006: Exit_Door_02
+    3300008: Floor_04
+    3300010: Lock_05
+    3300012: Lock_06
+    3300014: Pipe_01
+    3300016: Pipe_02
+    3300018: Pipe_03
+    3300020: Pipe_Small_01
+    3300022: Projector
+    3300024: Side_Wall_01
+    3300026: Side_Wall_02
+    3300028: Wall_04
+    3300030: Wall_05
+    3300032: Wall_07
+    3300034: Wall_09
+    3300036: White_Wall_Vent
+    3300038: Wire_Handle
+    3300040: pCube250
+    3300042: Floor_06
+    3300044: Floor_Piece
+    3300046: Structure_02
+    3300048: Wall_012
+    3300050: Floor_Piece1
+    3300052: Floor_Piece2
+    3300054: Wall_013
+    3300056: Wall_014
+    3300058: Wall_015
+    4300000: Wire_Handle
+    4300002: Wall_07
+    4300004: Projector
+    4300006: Exit_Door_01
+    4300008: Exit_Door_02
+    4300010: Pipe_01
+    4300012: Pipe_02
+    4300014: Pipe_03
+    4300016: Pipe_Small_01
+    4300018: Wall_05
+    4300020: Wall_04
+    4300022: Side_Wall_02
+    4300024: Side_Wall_01
+    4300026: Lock_05
+    4300028: Lock_06
+    4300030: Floor_04
+    4300032: Exit_01
+    4300034: White_Wall_Vent
+    4300036: Ceiling_02
+    4300038: Wall_09
+    4300040: pCube250
+    4300042: Floor_06
+    4300044: Floor_Piece
+    4300046: Structure_02
+    4300048: Wall_012
+    4300050: Floor_Piece1
+    4300052: Floor_Piece2
+    4300054: Wall_013
+    4300056: Wall_014
+    4300058: Wall_015
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
