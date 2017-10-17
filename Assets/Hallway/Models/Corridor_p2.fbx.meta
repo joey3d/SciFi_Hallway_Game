@@ -36,6 +36,7 @@ ModelImporter:
     100056: Wall_013
     100058: Wall_014
     100060: Wall_015
+    100062: Window_Black
     400000: Ceiling_02
     400002: //RootNode
     400004: Exit_01
@@ -67,6 +68,7 @@ ModelImporter:
     400056: Wall_013
     400058: Wall_014
     400060: Wall_015
+    400062: Window_Black
     2300000: Ceiling_02
     2300002: Exit_01
     2300004: Exit_Door_01
@@ -97,6 +99,7 @@ ModelImporter:
     2300054: Wall_013
     2300056: Wall_014
     2300058: Wall_015
+    2300060: Window_Black
     3300000: Ceiling_02
     3300002: Exit_01
     3300004: Exit_Door_01
@@ -127,6 +130,7 @@ ModelImporter:
     3300054: Wall_013
     3300056: Wall_014
     3300058: Wall_015
+    3300060: Window_Black
     4300000: Wire_Handle
     4300002: Wall_07
     4300004: Projector
@@ -157,6 +161,7 @@ ModelImporter:
     4300054: Wall_013
     4300056: Wall_014
     4300058: Wall_015
+    4300060: Window_Black
     9500000: //RootNode
   materials:
     importMaterials: 0
