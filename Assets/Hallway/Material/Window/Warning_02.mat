@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Warning_02
+  m_Shader: {fileID: 4800000, guid: a49eda3f770e7a54b8c9e082f7060961, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _E1:
+        m_Texture: {fileID: 2800000, guid: 8d77a9af6179a3149bf24d56d9b2675a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _E2:
+        m_Texture: {fileID: 2800000, guid: 8d77a9af6179a3149bf24d56d9b2675a, type: 3}
+        m_Scale: {x: 1, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _E3:
+        m_Texture: {fileID: 2800000, guid: 8d77a9af6179a3149bf24d56d9b2675a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _node_9847: 4
+    m_Colors:
+    - _node_4629: {r: 0.9485294, g: 0.06277033, b: 0.06277033, a: 1}

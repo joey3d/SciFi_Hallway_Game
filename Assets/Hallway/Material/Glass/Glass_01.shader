@@ -1,13 +1,14 @@
 // Shader created with Shader Forge v1.38 
 // Shader Forge (c) Neat Corporation / Joachim Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:3,spmd:1,trmd:1,grmd:0,uamb:True,mssp:True,bkdf:True,hqlp:False,rprd:True,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:7,dpts:2,wrdp:False,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:True,qofs:0,qpre:3,rntp:2,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2865,x:32719,y:32712,varname:node_2865,prsc:2|diff-469-RGB,spec-8389-OUT,gloss-5205-OUT,emission-3142-OUT,alpha-3746-OUT;n:type:ShaderForge.SFN_Vector1,id:8389,x:32460,y:32718,varname:node_8389,prsc:2,v1:0.8;n:type:ShaderForge.SFN_Vector1,id:5205,x:32460,y:32783,varname:node_5205,prsc:2,v1:0.5;n:type:ShaderForge.SFN_Color,id:469,x:32298,y:32547,ptovrint:False,ptlb:node_469,ptin:_node_469,varname:node_469,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:0.5238971,c2:0.6190162,c3:0.75,c4:1;n:type:ShaderForge.SFN_Cubemap,id:7295,x:31665,y:32895,ptovrint:False,ptlb:CubeMap,ptin:_CubeMap,varname:node_7295,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,cube:170b94ae6b2f3654bb9c477c6e8741f3,pvfc:0;n:type:ShaderForge.SFN_Multiply,id:79,x:31936,y:32961,varname:node_79,prsc:2|A-7295-RGB,B-850-OUT;n:type:ShaderForge.SFN_Fresnel,id:850,x:31707,y:33095,varname:node_850,prsc:2|EXP-4208-OUT;n:type:ShaderForge.SFN_Slider,id:3229,x:31973,y:33146,ptovrint:False,ptlb:node_3229,ptin:_node_3229,varname:node_3229,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:1,max:1;n:type:ShaderForge.SFN_Multiply,id:3142,x:32216,y:32887,varname:node_3142,prsc:2|A-79-OUT,B-3229-OUT;n:type:ShaderForge.SFN_Vector1,id:4208,x:31493,y:33099,varname:node_4208,prsc:2,v1:1;n:type:ShaderForge.SFN_Vector1,id:3746,x:32486,y:32983,varname:node_3746,prsc:2,v1:0.5;proporder:469-7295-3229;pass:END;sub:END;*/
+/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:3,spmd:1,trmd:1,grmd:0,uamb:True,mssp:True,bkdf:True,hqlp:False,rprd:True,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:7,dpts:2,wrdp:False,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:True,qofs:0,qpre:3,rntp:2,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2865,x:32719,y:32712,varname:node_2865,prsc:2|diff-469-RGB,spec-7238-R,gloss-7238-G,emission-3142-OUT,alpha-3746-OUT;n:type:ShaderForge.SFN_Color,id:469,x:32247,y:32382,ptovrint:False,ptlb:Color,ptin:_Color,varname:node_469,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:0.5238971,c2:0.6190162,c3:0.75,c4:1;n:type:ShaderForge.SFN_Cubemap,id:7295,x:31665,y:32895,ptovrint:False,ptlb:CubeMap,ptin:_CubeMap,varname:node_7295,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,cube:170b94ae6b2f3654bb9c477c6e8741f3,pvfc:0;n:type:ShaderForge.SFN_Multiply,id:79,x:31936,y:32961,varname:node_79,prsc:2|A-7295-RGB,B-850-OUT;n:type:ShaderForge.SFN_Fresnel,id:850,x:31707,y:33095,varname:node_850,prsc:2|EXP-4208-OUT;n:type:ShaderForge.SFN_Slider,id:3229,x:31973,y:33146,ptovrint:False,ptlb:node_3229,ptin:_node_3229,varname:node_3229,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:1,max:1;n:type:ShaderForge.SFN_Multiply,id:3142,x:32216,y:32887,varname:node_3142,prsc:2|A-79-OUT,B-3229-OUT;n:type:ShaderForge.SFN_Vector1,id:4208,x:31493,y:33099,varname:node_4208,prsc:2,v1:1;n:type:ShaderForge.SFN_Vector1,id:3746,x:32486,y:32983,varname:node_3746,prsc:2,v1:0.5;n:type:ShaderForge.SFN_Tex2d,id:7238,x:32247,y:32579,ptovrint:False,ptlb:Roughness,ptin:_Roughness,varname:node_7238,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:83cb3f911439aa04db27bfc923fde93a,ntxv:0,isnm:False;proporder:469-7295-3229-7238;pass:END;sub:END;*/
 
 Shader "Shader Forge/Glass_01" {
     Properties {
-        _node_469 ("node_469", Color) = (0.5238971,0.6190162,0.75,1)
+        _Color ("Color", Color) = (0.5238971,0.6190162,0.75,1)
         _CubeMap ("CubeMap", Cube) = "_Skybox" {}
         _node_3229 ("node_3229", Range(0, 1)) = 1
+        _Roughness ("Roughness", 2D) = "white" {}
         [HideInInspector]_Cutoff ("Alpha cutoff", Range(0,1)) = 0.5
     }
     SubShader {
@@ -41,31 +42,35 @@ Shader "Shader Forge/Glass_01" {
             #pragma multi_compile_fog
             #pragma only_renderers d3d9 d3d11 glcore gles 
             #pragma target 3.0
-            uniform float4 _node_469;
+            uniform float4 _Color;
             uniform samplerCUBE _CubeMap;
             uniform float _node_3229;
+            uniform sampler2D _Roughness; uniform float4 _Roughness_ST;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
                 float4 tangent : TANGENT;
+                float2 texcoord0 : TEXCOORD0;
                 float2 texcoord1 : TEXCOORD1;
                 float2 texcoord2 : TEXCOORD2;
             };
             struct VertexOutput {
                 float4 pos : SV_POSITION;
-                float2 uv1 : TEXCOORD0;
-                float2 uv2 : TEXCOORD1;
-                float4 posWorld : TEXCOORD2;
-                float3 normalDir : TEXCOORD3;
-                float3 tangentDir : TEXCOORD4;
-                float3 bitangentDir : TEXCOORD5;
-                UNITY_FOG_COORDS(6)
+                float2 uv0 : TEXCOORD0;
+                float2 uv1 : TEXCOORD1;
+                float2 uv2 : TEXCOORD2;
+                float4 posWorld : TEXCOORD3;
+                float3 normalDir : TEXCOORD4;
+                float3 tangentDir : TEXCOORD5;
+                float3 bitangentDir : TEXCOORD6;
+                UNITY_FOG_COORDS(7)
                 #if defined(LIGHTMAP_ON) || defined(UNITY_SHOULD_SAMPLE_SH)
-                    float4 ambientOrLightmapUV : TEXCOORD7;
+                    float4 ambientOrLightmapUV : TEXCOORD8;
                 #endif
             };
             VertexOutput vert (VertexInput v) {
                 VertexOutput o = (VertexOutput)0;
+                o.uv0 = v.texcoord0;
                 o.uv1 = v.texcoord1;
                 o.uv2 = v.texcoord2;
                 #ifdef LIGHTMAP_ON
@@ -100,8 +105,9 @@ Shader "Shader Forge/Glass_01" {
                 float Pi = 3.141592654;
                 float InvPi = 0.31830988618;
 ///////// Gloss:
-                float gloss = 0.5;
-                float perceptualRoughness = 1.0 - 0.5;
+                float4 _Roughness_var = tex2D(_Roughness,TRANSFORM_TEX(i.uv0, _Roughness));
+                float gloss = _Roughness_var.g;
+                float perceptualRoughness = 1.0 - _Roughness_var.g;
                 float roughness = perceptualRoughness * perceptualRoughness;
                 float specPow = exp2( gloss * 10.0 + 1.0 );
 /////// GI Data:
@@ -147,9 +153,9 @@ Shader "Shader Forge/Glass_01" {
 ////// Specular:
                 float NdotL = saturate(dot( normalDirection, lightDirection ));
                 float LdotH = saturate(dot(lightDirection, halfDirection));
-                float3 specularColor = 0.8;
+                float3 specularColor = _Roughness_var.r;
                 float specularMonochrome;
-                float3 diffuseColor = _node_469.rgb; // Need this for specular when using metallic
+                float3 diffuseColor = _Color.rgb; // Need this for specular when using metallic
                 diffuseColor = DiffuseAndSpecularFromMetallic( diffuseColor, specularColor, specularColor, specularMonochrome );
                 specularMonochrome = 1.0-specularMonochrome;
                 float NdotV = abs(dot( normalDirection, viewDirection ));
@@ -223,29 +229,33 @@ Shader "Shader Forge/Glass_01" {
             #pragma multi_compile_fog
             #pragma only_renderers d3d9 d3d11 glcore gles 
             #pragma target 3.0
-            uniform float4 _node_469;
+            uniform float4 _Color;
             uniform samplerCUBE _CubeMap;
             uniform float _node_3229;
+            uniform sampler2D _Roughness; uniform float4 _Roughness_ST;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
                 float4 tangent : TANGENT;
+                float2 texcoord0 : TEXCOORD0;
                 float2 texcoord1 : TEXCOORD1;
                 float2 texcoord2 : TEXCOORD2;
             };
             struct VertexOutput {
                 float4 pos : SV_POSITION;
-                float2 uv1 : TEXCOORD0;
-                float2 uv2 : TEXCOORD1;
-                float4 posWorld : TEXCOORD2;
-                float3 normalDir : TEXCOORD3;
-                float3 tangentDir : TEXCOORD4;
-                float3 bitangentDir : TEXCOORD5;
-                LIGHTING_COORDS(6,7)
-                UNITY_FOG_COORDS(8)
+                float2 uv0 : TEXCOORD0;
+                float2 uv1 : TEXCOORD1;
+                float2 uv2 : TEXCOORD2;
+                float4 posWorld : TEXCOORD3;
+                float3 normalDir : TEXCOORD4;
+                float3 tangentDir : TEXCOORD5;
+                float3 bitangentDir : TEXCOORD6;
+                LIGHTING_COORDS(7,8)
+                UNITY_FOG_COORDS(9)
             };
             VertexOutput vert (VertexInput v) {
                 VertexOutput o = (VertexOutput)0;
+                o.uv0 = v.texcoord0;
                 o.uv1 = v.texcoord1;
                 o.uv2 = v.texcoord2;
                 o.normalDir = UnityObjectToWorldNormal(v.normal);
@@ -273,16 +283,17 @@ Shader "Shader Forge/Glass_01" {
                 float Pi = 3.141592654;
                 float InvPi = 0.31830988618;
 ///////// Gloss:
-                float gloss = 0.5;
-                float perceptualRoughness = 1.0 - 0.5;
+                float4 _Roughness_var = tex2D(_Roughness,TRANSFORM_TEX(i.uv0, _Roughness));
+                float gloss = _Roughness_var.g;
+                float perceptualRoughness = 1.0 - _Roughness_var.g;
                 float roughness = perceptualRoughness * perceptualRoughness;
                 float specPow = exp2( gloss * 10.0 + 1.0 );
 ////// Specular:
                 float NdotL = saturate(dot( normalDirection, lightDirection ));
                 float LdotH = saturate(dot(lightDirection, halfDirection));
-                float3 specularColor = 0.8;
+                float3 specularColor = _Roughness_var.r;
                 float specularMonochrome;
-                float3 diffuseColor = _node_469.rgb; // Need this for specular when using metallic
+                float3 diffuseColor = _Color.rgb; // Need this for specular when using metallic
                 diffuseColor = DiffuseAndSpecularFromMetallic( diffuseColor, specularColor, specularColor, specularMonochrome );
                 specularMonochrome = 1.0-specularMonochrome;
                 float NdotV = abs(dot( normalDirection, viewDirection ));
@@ -342,24 +353,28 @@ Shader "Shader Forge/Glass_01" {
             #pragma multi_compile_fog
             #pragma only_renderers d3d9 d3d11 glcore gles 
             #pragma target 3.0
-            uniform float4 _node_469;
+            uniform float4 _Color;
             uniform samplerCUBE _CubeMap;
             uniform float _node_3229;
+            uniform sampler2D _Roughness; uniform float4 _Roughness_ST;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
+                float2 texcoord0 : TEXCOORD0;
                 float2 texcoord1 : TEXCOORD1;
                 float2 texcoord2 : TEXCOORD2;
             };
             struct VertexOutput {
                 float4 pos : SV_POSITION;
-                float2 uv1 : TEXCOORD0;
-                float2 uv2 : TEXCOORD1;
-                float4 posWorld : TEXCOORD2;
-                float3 normalDir : TEXCOORD3;
+                float2 uv0 : TEXCOORD0;
+                float2 uv1 : TEXCOORD1;
+                float2 uv2 : TEXCOORD2;
+                float4 posWorld : TEXCOORD3;
+                float3 normalDir : TEXCOORD4;
             };
             VertexOutput vert (VertexInput v) {
                 VertexOutput o = (VertexOutput)0;
+                o.uv0 = v.texcoord0;
                 o.uv1 = v.texcoord1;
                 o.uv2 = v.texcoord2;
                 o.normalDir = UnityObjectToWorldNormal(v.normal);
@@ -377,11 +392,12 @@ Shader "Shader Forge/Glass_01" {
                 
                 o.Emission = ((texCUBE(_CubeMap,viewReflectDirection).rgb*pow(1.0-max(0,dot(normalDirection, viewDirection)),1.0))*_node_3229);
                 
-                float3 diffColor = _node_469.rgb;
+                float3 diffColor = _Color.rgb;
                 float specularMonochrome;
                 float3 specColor;
-                diffColor = DiffuseAndSpecularFromMetallic( diffColor, 0.8, specColor, specularMonochrome );
-                float roughness = 1.0 - 0.5;
+                float4 _Roughness_var = tex2D(_Roughness,TRANSFORM_TEX(i.uv0, _Roughness));
+                diffColor = DiffuseAndSpecularFromMetallic( diffColor, _Roughness_var.r, specColor, specularMonochrome );
+                float roughness = 1.0 - _Roughness_var.g;
                 o.Albedo = diffColor + specColor * roughness * roughness * 0.5;
                 
                 return UnityMetaFragment( o );
