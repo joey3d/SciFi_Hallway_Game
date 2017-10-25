@@ -47,6 +47,8 @@ ModelImporter:
     100078: Wire_06
     100080: Wire_07
     100082: Wire_08
+    100084: Ceiling_04
+    100086: Warning_02
     400000: Ceiling_02
     400002: //RootNode
     400004: Exit_01
@@ -89,6 +91,8 @@ ModelImporter:
     400078: Wire_06
     400080: Wire_07
     400082: Wire_08
+    400084: Ceiling_04
+    400086: Warning_02
     2300000: Ceiling_02
     2300002: Exit_01
     2300004: Exit_Door_01
@@ -130,6 +134,8 @@ ModelImporter:
     2300076: Wire_06
     2300078: Wire_07
     2300080: Wire_08
+    2300082: Ceiling_04
+    2300084: Warning_02
     3300000: Ceiling_02
     3300002: Exit_01
     3300004: Exit_Door_01
@@ -171,6 +177,8 @@ ModelImporter:
     3300076: Wire_06
     3300078: Wire_07
     3300080: Wire_08
+    3300082: Ceiling_04
+    3300084: Warning_02
     4300000: Wire_Handle
     4300002: Wall_07
     4300004: Projector
@@ -212,6 +220,8 @@ ModelImporter:
     4300076: Wire_02
     4300078: Wire_01
     4300080: Wire_05
+    4300082: Ceiling_04
+    4300084: Warning_02
     9500000: //RootNode
   externalObjects: {}
   materials:

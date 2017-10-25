@@ -32,6 +32,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Cutoff: 0.5
+    - _Emmissive_Intensity: 1
     - _node_9847: 4
     m_Colors:
+    - _Emmissive_E: {r: 0.8382353, g: 0.1355969, b: 0.1355969, a: 1}
     - _node_4629: {r: 0.9485294, g: 0.06277033, b: 0.06277033, a: 1}
