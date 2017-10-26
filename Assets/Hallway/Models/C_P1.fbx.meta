@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 6d4a36fc3007afd4a92716a462a5d0aa
+timeCreated: 1509001004
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: C8
+    100002: //RootNode
+    100004: Door
+    100006: Door_L1
+    100008: Door_R1
+    100010: Exit_Door_01
+    100012: Exit_Door_02
+    100014: Tanks_01
+    100016: C2
+    100018: Floor_012
+    100020: Floor_013
+    100022: Floor_015
+    100024: Structure_05
+    100026: Warning_02
+    400000: C8
+    400002: //RootNode
+    400004: Door
+    400006: Door_L1
+    400008: Door_R1
+    400010: Exit_Door_01
+    400012: Exit_Door_02
+    400014: Tanks_01
+    400016: C2
+    400018: Floor_012
+    400020: Floor_013
+    400022: Floor_015
+    400024: Structure_05
+    400026: Warning_02
+    2300000: C8
+    2300002: Door
+    2300004: Door_L1
+    2300006: Door_R1
+    2300008: Exit_Door_01
+    2300010: Exit_Door_02
+    2300012: Tanks_01
+    2300014: C2
+    2300016: Floor_012
+    2300018: Floor_013
+    2300020: Floor_015
+    2300022: Structure_05
+    2300024: Warning_02
+    3300000: C8
+    3300002: Door
+    3300004: Door_L1
+    3300006: Door_R1
+    3300008: Exit_Door_01
+    3300010: Exit_Door_02
+    3300012: Tanks_01
+    3300014: C2
+    3300016: Floor_012
+    3300018: Floor_013
+    3300020: Floor_015
+    3300022: Structure_05
+    3300024: Warning_02
+    4300000: Tanks_01
+    4300002: Exit_Door_01
+    4300004: Exit_Door_02
+    4300006: Door
+    4300008: Door_L1
+    4300010: Door_R1
+    4300012: C8
+    4300014: Warning_02
+    4300016: C2
+    4300018: Structure_05
+    4300020: Floor_012
+    4300022: Floor_013
+    4300024: Floor_015
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corridor_p1
+    second: {fileID: 2100000, guid: 2c09b1b5890573946a4f04d884be673d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corridor_p2
+    second: {fileID: 2100000, guid: 285ad0a8bf18c9f4c9299e7ac91f9836, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corridor_p3
+    second: {fileID: 2100000, guid: 295fc3371630b6849ac91db3663046b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corridor_p4
+    second: {fileID: 2100000, guid: da9d76dda996c9f4e9f4147bf433998f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inner_Window
+    second: {fileID: 2100000, guid: 5f746d7bf83fa7344a4a1e371c8d8171, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Inner_02
+    second: {fileID: 2100000, guid: 47f83abd9607c6749b55704c1e345292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 3a89ac53d04668c439dd103eb0579de0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
