@@ -19,6 +19,13 @@ ModelImporter:
     100022: Floor_015
     100024: Structure_05
     100026: Warning_02
+    100028: C1
+    100030: C3
+    100032: C5
+    100034: Wall_p1
+    100036: Wall_p2
+    100038: C4
+    100040: Warning_03
     400000: C8
     400002: //RootNode
     400004: Door
@@ -33,6 +40,13 @@ ModelImporter:
     400022: Floor_015
     400024: Structure_05
     400026: Warning_02
+    400028: C1
+    400030: C3
+    400032: C5
+    400034: Wall_p1
+    400036: Wall_p2
+    400038: C4
+    400040: Warning_03
     2300000: C8
     2300002: Door
     2300004: Door_L1
@@ -46,6 +60,13 @@ ModelImporter:
     2300020: Floor_015
     2300022: Structure_05
     2300024: Warning_02
+    2300026: C1
+    2300028: C3
+    2300030: C5
+    2300032: Wall_p1
+    2300034: Wall_p2
+    2300036: C4
+    2300038: Warning_03
     3300000: C8
     3300002: Door
     3300004: Door_L1
@@ -59,6 +80,13 @@ ModelImporter:
     3300020: Floor_015
     3300022: Structure_05
     3300024: Warning_02
+    3300026: C1
+    3300028: C3
+    3300030: C5
+    3300032: Wall_p1
+    3300034: Wall_p2
+    3300036: C4
+    3300038: Warning_03
     4300000: Tanks_01
     4300002: Exit_Door_01
     4300004: Exit_Door_02
@@ -72,6 +100,13 @@ ModelImporter:
     4300020: Floor_012
     4300022: Floor_013
     4300024: Floor_015
+    4300026: C5
+    4300028: Wall_p1
+    4300030: Wall_p2
+    4300032: C3
+    4300034: C1
+    4300036: C4
+    4300038: Warning_03
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -101,13 +136,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: f5394727bbfc8d042a2b4f2f9d01009c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Window_Inner_02
     second: {fileID: 2100000, guid: 47f83abd9607c6749b55704c1e345292, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert1
-    second: {fileID: 2100000, guid: 3a89ac53d04668c439dd103eb0579de0, type: 2}
+    second: {fileID: 2100000, guid: 8ddfc8e1ad6972e458b92c1f766163ee, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -154,7 +194,7 @@ ModelImporter:
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
-    useFileScale: 1
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
