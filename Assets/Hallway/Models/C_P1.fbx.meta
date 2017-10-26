@@ -26,6 +26,8 @@ ModelImporter:
     100036: Wall_p2
     100038: C4
     100040: Warning_03
+    100042: C2_v1
+    100044: C2_v2
     400000: C8
     400002: //RootNode
     400004: Door
@@ -47,6 +49,8 @@ ModelImporter:
     400036: Wall_p2
     400038: C4
     400040: Warning_03
+    400042: C2_v1
+    400044: C2_v2
     2300000: C8
     2300002: Door
     2300004: Door_L1
@@ -67,6 +71,8 @@ ModelImporter:
     2300034: Wall_p2
     2300036: C4
     2300038: Warning_03
+    2300040: C2_v1
+    2300042: C2_v2
     3300000: C8
     3300002: Door
     3300004: Door_L1
@@ -87,6 +93,8 @@ ModelImporter:
     3300034: Wall_p2
     3300036: C4
     3300038: Warning_03
+    3300040: C2_v1
+    3300042: C2_v2
     4300000: Tanks_01
     4300002: Exit_Door_01
     4300004: Exit_Door_02
@@ -107,6 +115,8 @@ ModelImporter:
     4300034: C1
     4300036: C4
     4300038: Warning_03
+    4300040: C2_v2
+    4300042: C2_v1
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -157,6 +167,11 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert1
+    second: {fileID: 2100000, guid: 8ddfc8e1ad6972e458b92c1f766163ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
     second: {fileID: 2100000, guid: 8ddfc8e1ad6972e458b92c1f766163ee, type: 2}
   materials:
     importMaterials: 1
