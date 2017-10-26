@@ -131,6 +131,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Glass_03
+    second: {fileID: 2100000, guid: cedcd14c8c1c15149a1c1fe1c2950627, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Inner_Window
     second: {fileID: 2100000, guid: 5f746d7bf83fa7344a4a1e371c8d8171, type: 2}
   - first:
@@ -138,6 +143,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Light
     second: {fileID: 2100000, guid: f5394727bbfc8d042a2b4f2f9d01009c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: 80339c8d680c7e04b922b1a4e725a174, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
