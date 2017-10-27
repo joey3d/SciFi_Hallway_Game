@@ -28,7 +28,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Cutoff: 0.5
-    - _node_3229: 1
+    - _node_3229: 0.2
     m_Colors:
     - _Color: {r: 0.5238971, g: 0.6190162, b: 0.75, a: 1}
     - _node_469: {r: 0.5238971, g: 0.6190162, b: 0.75, a: 1}
