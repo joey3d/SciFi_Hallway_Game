@@ -20,33 +20,34 @@ Material:
     m_TexEnvs:
     - _A1:
         m_Texture: {fileID: 2800000, guid: d6fcaeaca286f0b43a614f54dbf397c7, type: 3}
-        m_Scale: {x: 5, y: 5}
+        m_Scale: {x: 800, y: 800}
         m_Offset: {x: 0, y: 0}
     - _A2:
         m_Texture: {fileID: 2800000, guid: c820dbf5c21706e4d8eff17d635e5ca7, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 800, y: 800}
         m_Offset: {x: 0, y: 0}
     - _D1:
         m_Texture: {fileID: 2800000, guid: b52f130555f9cee4ca7a907e35e544b3, type: 3}
-        m_Scale: {x: 5, y: 5}
+        m_Scale: {x: 800, y: 800}
         m_Offset: {x: 0, y: 0}
     - _D2:
         m_Texture: {fileID: 2800000, guid: c4cf13f367c5f5446a920bd8a9758920, type: 3}
-        m_Scale: {x: 5, y: 5}
+        m_Scale: {x: 800, y: 800}
         m_Offset: {x: 0, y: 0}
     - _N1:
         m_Texture: {fileID: 2800000, guid: 94fd9ae7eb872164f9e8815f9db07de4, type: 3}
-        m_Scale: {x: 5, y: 5}
+        m_Scale: {x: 800, y: 800}
         m_Offset: {x: 0, y: 0}
     - _N2:
         m_Texture: {fileID: 2800000, guid: a0abc0b67ebc81748a1bd962394ddbc3, type: 3}
-        m_Scale: {x: 5, y: 5}
+        m_Scale: {x: 800, y: 800}
         m_Offset: {x: 0, y: 0}
     - _N3:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _A3: 0.662
+    - _A3: 1
+    - _G3: 0.671
     m_Colors:
     - _D3: {r: 0.36575478, g: 0.65922993, b: 0.9044118, a: 1}
