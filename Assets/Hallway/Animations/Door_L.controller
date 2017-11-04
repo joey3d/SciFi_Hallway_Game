@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Door_R
+  m_Name: Door_L
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Open
@@ -148,7 +148,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a884a64e2b7973e45824b32d0d3bf5a7, type: 2}
+  m_Motion: {fileID: 7400000, guid: e39055ffff627f6429c403c09832571e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -173,7 +173,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a884a64e2b7973e45824b32d0d3bf5a7, type: 2}
+  m_Motion: {fileID: 7400000, guid: e39055ffff627f6429c403c09832571e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

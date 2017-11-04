@@ -57,12 +57,12 @@ namespace Joey3D
             Debug.Log("Handle touched");
             IsDoorOpen = !IsDoorOpen;
 
-            if(Door == null)
+            if (Door == null)
             {
                 return;
             }
 
-            if(IsDoorOpen == true)
+            if (IsDoorOpen == true)
             {
                 Door.SetTrigger(DoorOpenAnimationHash);
             }
