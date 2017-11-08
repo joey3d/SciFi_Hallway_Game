@@ -29,6 +29,8 @@ ModelImporter:
     100042: C2_v1
     100044: C2_v2
     100046: Stairs
+    100048: pCube1
+    100050: Tanks_02
     400000: C8
     400002: //RootNode
     400004: Door
@@ -53,6 +55,8 @@ ModelImporter:
     400042: C2_v1
     400044: C2_v2
     400046: Stairs
+    400048: pCube1
+    400050: Tanks_02
     2300000: C8
     2300002: Door
     2300004: Door_L1
@@ -77,6 +81,8 @@ ModelImporter:
     2300042: C2_v2
     2300044: Stairs
     2300046: //RootNode
+    2300048: pCube1
+    2300050: Tanks_02
     3300000: C8
     3300002: Door
     3300004: Door_L1
@@ -101,6 +107,8 @@ ModelImporter:
     3300042: C2_v2
     3300044: Stairs
     3300046: //RootNode
+    3300048: pCube1
+    3300050: Tanks_02
     4300000: Tanks_01
     4300002: Exit_Door_01
     4300004: Exit_Door_02
@@ -125,6 +133,7 @@ ModelImporter:
     4300042: C2_v1
     4300044: Stairs
     4300046: Tanks_02
+    4300048: pCube1
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -175,7 +184,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert1
-    second: {fileID: 2100000, guid: 8ddfc8e1ad6972e458b92c1f766163ee, type: 2}
+    second: {fileID: 2100000, guid: 3a89ac53d04668c439dd103eb0579de0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
