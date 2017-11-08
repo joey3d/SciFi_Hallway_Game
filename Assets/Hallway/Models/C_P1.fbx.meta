@@ -28,6 +28,7 @@ ModelImporter:
     100040: Warning_03
     100042: C2_v1
     100044: C2_v2
+    100046: Stairs
     400000: C8
     400002: //RootNode
     400004: Door
@@ -51,6 +52,7 @@ ModelImporter:
     400040: Warning_03
     400042: C2_v1
     400044: C2_v2
+    400046: Stairs
     2300000: C8
     2300002: Door
     2300004: Door_L1
@@ -73,6 +75,8 @@ ModelImporter:
     2300038: Warning_03
     2300040: C2_v1
     2300042: C2_v2
+    2300044: Stairs
+    2300046: //RootNode
     3300000: C8
     3300002: Door
     3300004: Door_L1
@@ -95,6 +99,8 @@ ModelImporter:
     3300038: Warning_03
     3300040: C2_v1
     3300042: C2_v2
+    3300044: Stairs
+    3300046: //RootNode
     4300000: Tanks_01
     4300002: Exit_Door_01
     4300004: Exit_Door_02
@@ -117,6 +123,8 @@ ModelImporter:
     4300038: Warning_03
     4300040: C2_v2
     4300042: C2_v1
+    4300044: Stairs
+    4300046: Tanks_02
   externalObjects:
   - first:
       type: UnityEngine:Material

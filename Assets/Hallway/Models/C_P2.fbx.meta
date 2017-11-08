@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 163a5dbb6eddccd488e1b1786699036f
+timeCreated: 1510093332
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ADN_GeoProfile_8
+    100002: //RootNode
+    100004: Ceiling_01
+    100006: Column_01
+    100008: Corridor_Inner_01
+    100010: Corridor_Inner_02
+    100012: curve1
+    100014: Door_Wall_01
+    100016: Floor_01
+    100018: Metal_Bar
+    100020: Optical_Flare_01
+    100022: pCylinder21
+    100024: Railing_01
+    100026: Railing_02
+    100028: Column_03
+    400000: ADN_GeoProfile_8
+    400002: //RootNode
+    400004: Ceiling_01
+    400006: Column_01
+    400008: Corridor_Inner_01
+    400010: Corridor_Inner_02
+    400012: curve1
+    400014: Door_Wall_01
+    400016: Floor_01
+    400018: Metal_Bar
+    400020: Optical_Flare_01
+    400022: pCylinder21
+    400024: Railing_01
+    400026: Railing_02
+    400028: Column_03
+    2300000: Ceiling_01
+    2300002: Column_01
+    2300004: Corridor_Inner_01
+    2300006: Corridor_Inner_02
+    2300008: Door_Wall_01
+    2300010: Floor_01
+    2300012: Metal_Bar
+    2300014: Optical_Flare_01
+    2300016: pCylinder21
+    2300018: Railing_01
+    2300020: Railing_02
+    2300022: Column_03
+    3300000: Ceiling_01
+    3300002: Column_01
+    3300004: Corridor_Inner_01
+    3300006: Corridor_Inner_02
+    3300008: Door_Wall_01
+    3300010: Floor_01
+    3300012: Metal_Bar
+    3300014: Optical_Flare_01
+    3300016: pCylinder21
+    3300018: Railing_01
+    3300020: Railing_02
+    3300022: Column_03
+    4300000: Optical_Flare_01
+    4300002: Corridor_Inner_02
+    4300004: Column_01
+    4300006: Floor_01
+    4300008: Ceiling_01
+    4300010: Corridor_Inner_01
+    4300012: Door_Wall_01
+    4300014: Metal_Bar
+    4300016: Railing_01
+    4300018: Railing_02
+    4300020: pCylinder21
+    4300022: Column_03
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corridor_p5
+    second: {fileID: 2100000, guid: da9d76dda996c9f4e9f4147bf433998f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corridor_p6
+    second: {fileID: 2100000, guid: 2c09b1b5890573946a4f04d884be673d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corridor_p7
+    second: {fileID: 2100000, guid: 285ad0a8bf18c9f4c9299e7ac91f9836, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Corridor_p8
+    second: {fileID: 2100000, guid: 295fc3371630b6849ac91db3663046b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UV
+    second: {fileID: 2100000, guid: 981b9dfa81d16c24fa92daf174ee3d43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 3a89ac53d04668c439dd103eb0579de0, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
