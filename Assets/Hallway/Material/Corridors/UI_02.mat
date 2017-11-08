@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI_02
+  m_Shader: {fileID: 4800000, guid: c283c740508aad54fb5dfe65a0107525, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _E1:
+        m_Texture: {fileID: 2800000, guid: 62fd95ff12f931a43b56becd3e3c0ffc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _E2:
+        m_Texture: {fileID: 2800000, guid: 8d77a9af6179a3149bf24d56d9b2675a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _E3:
+        m_Texture: {fileID: 2800000, guid: 8d77a9af6179a3149bf24d56d9b2675a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _Emmissive_Intensity: 1
+    m_Colors:
+    - _Emmissive_E: {r: 0.8382353, g: 0.1355969, b: 0.1355969, a: 1}
