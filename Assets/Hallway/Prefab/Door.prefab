@@ -127,6 +127,9 @@ GameObject:
   - component: {fileID: 4640535387393086}
   - component: {fileID: 33020557203082620}
   - component: {fileID: 23017628950067406}
+  - component: {fileID: 65452061309924756}
+  - component: {fileID: 114465638955068816}
+  - component: {fileID: 114429597559907798}
   m_Layer: 0
   m_Name: Warning_03
   m_TagString: Untagged
@@ -195,7 +198,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1831689592474808}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.7498, y: -0.54, z: 0.0063}
+  m_LocalPosition: {x: -0.98279, y: -1.3658993, z: -3.9969}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4408536447078618}
@@ -436,6 +439,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1270463012952208}
   m_Mesh: {fileID: 4300014, guid: 6d4a36fc3007afd4a92716a462a5d0aa, type: 3}
+--- !u!65 &65452061309924756
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1947250624537850}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.026478246, y: 0.25004923, z: 0.2514473}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!65 &65490110524945826
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -601,6 +616,53 @@ MonoBehaviour:
   useOverrideButton: 7
   allowedUseControllers: 0
   usingState: 0
+--- !u!114 &114429597559907798
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1947250624537850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba1d7598f77f0e04aabccb321110163a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Doors:
+  - {fileID: 95770138296129678}
+  - {fileID: 95402043820011536}
+  DoorOpenAnimation: Open
+  DoorCloseAnimation: Close
+  IsDoorOpen: 0
+--- !u!114 &114465638955068816
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1947250624537850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disableWhenIdle: 1
+  touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
+  allowedTouchControllers: 0
+  ignoredColliders: []
+  isGrabbable: 0
+  holdButtonToGrab: 1
+  stayGrabbedOnTeleport: 1
+  validDrop: 1
+  grabOverrideButton: 0
+  allowedGrabControllers: 0
+  grabAttachMechanicScript: {fileID: 0}
+  secondaryGrabActionScript: {fileID: 0}
+  isUsable: 1
+  holdButtonToUse: 0
+  useOnlyIfGrabbed: 0
+  pointerActivatesUseAction: 0
+  useOverrideButton: 7
+  allowedUseControllers: 0
+  usingState: 0
 --- !u!114 &114866668831572060
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -612,7 +674,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba1d7598f77f0e04aabccb321110163a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Door: {fileID: 95770138296129678}
+  Doors:
+  - {fileID: 95770138296129678}
+  - {fileID: 95402043820011536}
   DoorOpenAnimation: Open
   DoorCloseAnimation: Close
   IsDoorOpen: 0

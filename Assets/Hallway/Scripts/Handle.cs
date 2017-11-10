@@ -8,7 +8,7 @@ namespace Joey3D
     public class Handle : MonoBehaviour
     {
         [Header("Handle")]
-        public Animator Door;
+        public Animator[] Doors;
         public string DoorOpenAnimation;
         public string DoorCloseAnimation;
 
@@ -57,18 +57,26 @@ namespace Joey3D
             Debug.Log("Handle touched");
             IsDoorOpen = !IsDoorOpen;
 
-            if (Door == null)
+            if (Doors == null)
             {
                 return;
             }
 
-            if (IsDoorOpen == true)
+            foreach (Animator door in Doors)
             {
-                Door.SetTrigger(DoorOpenAnimationHash);
-            }
-            else
-            {
-                Door.SetTrigger(DoorCloseAnimationHash);
+                if(door == null)
+                {
+                    continue;
+                }
+
+                if (IsDoorOpen == true)
+                {
+                    door.SetTrigger(DoorOpenAnimationHash);
+                }
+                else
+                {
+                    door.SetTrigger(DoorCloseAnimationHash);
+                }
             }
         }
     }
