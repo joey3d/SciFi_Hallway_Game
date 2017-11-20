@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: 604d7bb5d462d1247a714236e38c5ebe
+timeCreated: 1510979038
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pCube18
+    100004: pCube21
+    100006: pCube22
+    100008: pCube35
+    100010: pCube36
+    100012: pCube37
+    100014: pCylinder36
+    100016: pCylinder37
+    100018: pCylinder38
+    100020: pCylinder39
+    100022: pCylinder46
+    100024: pCylinder47
+    100026: pCylinder49
+    100028: pCylinder50
+    100030: pCylinder51
+    100032: polySurface10
+    100034: polySurface11
+    100036: polySurface13
+    100038: polySurface2
+    100040: polySurface5
+    100042: polySurface8
+    100044: pPlane2
+    100046: pSphere1
+    100048: transform3
+    100050: transform4
+    100052: New_QP_PolyPipe_1
+    100054: pCube38
+    100056: pCube39
+    100058: pCube40
+    100060: pCube41
+    100062: pCube42
+    100064: pCylinder71
+    100066: polySurface22
+    100068: pPlane3
+    400000: //RootNode
+    400002: pCube18
+    400004: pCube21
+    400006: pCube22
+    400008: pCube35
+    400010: pCube36
+    400012: pCube37
+    400014: pCylinder36
+    400016: pCylinder37
+    400018: pCylinder38
+    400020: pCylinder39
+    400022: pCylinder46
+    400024: pCylinder47
+    400026: pCylinder49
+    400028: pCylinder50
+    400030: pCylinder51
+    400032: polySurface10
+    400034: polySurface11
+    400036: polySurface13
+    400038: polySurface2
+    400040: polySurface5
+    400042: polySurface8
+    400044: pPlane2
+    400046: pSphere1
+    400048: transform3
+    400050: transform4
+    400052: New_QP_PolyPipe_1
+    400054: pCube38
+    400056: pCube39
+    400058: pCube40
+    400060: pCube41
+    400062: pCube42
+    400064: pCylinder71
+    400066: polySurface22
+    400068: pPlane3
+    2300000: pCube18
+    2300002: pCube21
+    2300004: pCube22
+    2300006: pCube35
+    2300008: pCube36
+    2300010: pCylinder36
+    2300012: pCylinder37
+    2300014: pCylinder38
+    2300016: pCylinder39
+    2300018: pCylinder46
+    2300020: pCylinder47
+    2300022: pCylinder49
+    2300024: pCylinder51
+    2300026: polySurface10
+    2300028: polySurface13
+    2300030: polySurface2
+    2300032: polySurface5
+    2300034: pPlane2
+    2300036: pSphere1
+    2300038: New_QP_PolyPipe_1
+    2300040: pCube37
+    2300042: pCube38
+    2300044: pCube39
+    2300046: pCube40
+    2300048: pCube41
+    2300050: pCube42
+    2300052: pCylinder71
+    2300054: polySurface22
+    2300056: pPlane3
+    3300000: pCube18
+    3300002: pCube21
+    3300004: pCube22
+    3300006: pCube35
+    3300008: pCube36
+    3300010: pCylinder36
+    3300012: pCylinder37
+    3300014: pCylinder38
+    3300016: pCylinder39
+    3300018: pCylinder46
+    3300020: pCylinder47
+    3300022: pCylinder49
+    3300024: pCylinder51
+    3300026: polySurface10
+    3300028: polySurface13
+    3300030: polySurface2
+    3300032: polySurface5
+    3300034: pPlane2
+    3300036: pSphere1
+    3300038: New_QP_PolyPipe_1
+    3300040: pCube37
+    3300042: pCube38
+    3300044: pCube39
+    3300046: pCube40
+    3300048: pCube41
+    3300050: pCube42
+    3300052: pCylinder71
+    3300054: polySurface22
+    3300056: pPlane3
+    4300000: pCube18
+    4300002: pCube21
+    4300004: pCube22
+    4300006: pSphere1
+    4300008: polySurface2
+    4300010: polySurface5
+    4300012: pCylinder36
+    4300014: pPlane2
+    4300016: pCylinder37
+    4300018: pCylinder38
+    4300020: polySurface13
+    4300022: pCylinder39
+    4300024: pCube35
+    4300026: polySurface10
+    4300028: pCube36
+    4300030: pCylinder46
+    4300032: pCylinder47
+    4300034: pCylinder49
+    4300036: pCylinder51
+    4300038: polySurface22
+    4300040: pPlane3
+    4300042: pCube37
+    4300044: pCube38
+    4300046: pCube39
+    4300048: pCube40
+    4300050: New_QP_PolyPipe_1
+    4300052: pCylinder71
+    4300054: pCube41
+    4300056: pCube42
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: c4832579395a62d45a8e7cb4975b82b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: UI_01
+    second: {fileID: 2100000, guid: f7e611790787a814fb34e1f3e123307d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 3a89ac53d04668c439dd103eb0579de0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
