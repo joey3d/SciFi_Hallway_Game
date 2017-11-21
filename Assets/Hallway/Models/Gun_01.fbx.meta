@@ -40,6 +40,10 @@ ModelImporter:
     100064: pCylinder71
     100066: polySurface22
     100068: pPlane3
+    100070: New_QP_PolyPipe_2
+    100072: pCylinder75
+    100074: pCylinder78
+    100076: polySurface25
     400000: //RootNode
     400002: pCube18
     400004: pCube21
@@ -75,6 +79,10 @@ ModelImporter:
     400064: pCylinder71
     400066: polySurface22
     400068: pPlane3
+    400070: New_QP_PolyPipe_2
+    400072: pCylinder75
+    400074: pCylinder78
+    400076: polySurface25
     2300000: pCube18
     2300002: pCube21
     2300004: pCube22
@@ -104,6 +112,10 @@ ModelImporter:
     2300052: pCylinder71
     2300054: polySurface22
     2300056: pPlane3
+    2300058: New_QP_PolyPipe_2
+    2300060: pCylinder75
+    2300062: pCylinder78
+    2300064: polySurface25
     3300000: pCube18
     3300002: pCube21
     3300004: pCube22
@@ -133,6 +145,10 @@ ModelImporter:
     3300052: pCylinder71
     3300054: polySurface22
     3300056: pPlane3
+    3300058: New_QP_PolyPipe_2
+    3300060: pCylinder75
+    3300062: pCylinder78
+    3300064: polySurface25
     4300000: pCube18
     4300002: pCube21
     4300004: pCube22
@@ -162,6 +178,10 @@ ModelImporter:
     4300052: pCylinder71
     4300054: pCube41
     4300056: pCube42
+    4300058: pCylinder75
+    4300060: pCylinder78
+    4300062: New_QP_PolyPipe_2
+    4300064: polySurface25
   externalObjects:
   - first:
       type: UnityEngine:Material
